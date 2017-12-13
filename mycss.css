@@ -1,0 +1,390 @@
+@font-face {
+		    font-family: nor;
+		    src: url(font/helveticaneuelight.ttf);
+}
+@font-face {
+		    font-family: fbold;
+		    src: url(font/helveticaneuebold.ttf);
+}
+body{
+	background-color: #fce9e0;
+}
+
+.clear { 
+	clear: both;
+	text-align: center;
+}
+
+@media (max-width: 599px){
+	.contentMain{
+		text-align: justify;
+		margin-left: 23%;
+		margin-right: 10%; 
+		padding-top: 30px;
+		font-size: 12pt;
+		font-family: nor;
+	}
+	.T{
+		margin-left: 13%; 
+		padding-top: 8px;
+		float: left;
+		width: 0%;
+		font-style: fbold;
+		font-size: 60pt;
+	}
+	.contentMain2{
+		text-align: justify;
+		margin-left: 15%; 
+		margin-right: 10%; 
+		font-size: 12pt;
+		font-family: nor;
+	}
+	.img1{
+		padding-top: 40px;
+		width: 80%;
+		text-align: center;
+	}
+	.content1{
+		padding-top: 60px;
+	}
+	.content11{
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+	.content12{
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.img111{
+		float: left;
+		margin-left: 25%;
+		margin-right: 5%;
+		width: 70%;
+	}
+	.text111{
+		padding-top: 15%;
+		padding-left: 5%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 10pt;
+	}
+	.text112{
+		padding-top: 30%;
+		padding-left: 5%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 10pt;
+	}
+	.text113{
+		padding-top: 45%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		font-size: 14pt;
+	}
+	
+	.img2{
+		padding-top: 40px;
+		width: 80%;
+		text-align: center;
+	}
+	.text121{
+		padding-top: 20%;
+		padding-left: 5%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 10pt;
+	}
+	.text122{
+		padding-top: 40%;
+		padding-left: 5%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 10pt;
+	}
+	.contentMain3_tablet{
+		text-align: center;
+		padding-top: 60px;
+	}
+	.img_slide{
+		width: 100%;
+	}
+	.content_slide{
+		padding-top: 5%;
+		padding-left: 10%;
+		padding-right: 10%;
+		width: 100%;
+		text-align: justify;
+		font-family: nor;
+		font-size: 12pt;
+	}
+	.modify_img_slide{
+		width: 70%;
+	}
+	.mySlides{
+		
+	}
+	.contentMain3_PC{
+		display: none;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+	.contentMain{
+		text-align: justify;
+		margin-left: 28%; 
+		width: 50%;
+		padding-top: 80px;
+		font-size: 14pt;
+		font-family: nor;
+	}
+	.T{
+		margin-left: 21.5%; 
+		padding-top: 42px;
+		float: left;
+		width: 0%;
+		font-style: fbold;
+		font-size: 95pt;
+	}
+	.contentMain2{
+		text-align: justify;
+		margin-left: 21.5%; 
+		width: 56.5%;
+		font-size: 14pt;
+		font-family: nor;
+	}
+	.img1{
+		position: relative;
+		padding-top: 80px;
+	}
+	.content1{
+		padding-top: 60px;
+	}
+	.content11{
+		position: relative;
+		float: left;
+		width: 50%;
+	}
+	.content12{
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	.img111{
+		float: left;
+		margin-left: 35%;
+	}
+	.text111{
+		padding-top: 15%;
+		padding-left: 13%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 14pt;
+	}
+	.text112{
+		padding-top: 30%;
+		padding-left: 13%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 14pt;
+	}
+	.text113{
+		padding-top: 45%;
+		padding-left: 35%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		font-size: 18pt;
+	}
+	
+	.img2{
+		position: relative;
+		padding-top: 80px;
+	}
+	.text121{
+		padding-top: 30%;
+		padding-left: 13%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 14pt;
+	}
+	.text122{
+		padding-top: 50%;
+		padding-left: 13%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 14pt;
+	}
+	.contentMain3_tablet{
+		text-align: center;
+		padding-top: 60px;
+	}
+	.img_slide{
+		float: left;
+		width: 50%;
+	}
+	.content_slide{
+		padding-top: 5%;
+		float: left;
+		width: 35%;
+		text-align: justify;
+		font-family: nor;
+		font-size: 12pt;
+	}
+	.modify_img_slide{
+		width: 70%;
+		margin-left: 20%;
+	}
+	.mySlides{
+		
+	}
+	.contentMain3_PC{
+		display: none;
+	}
+}
+
+@media (min-width: 1201px) {
+	.contentMain{
+		text-align: justify;
+		margin-left: 28%; 
+		width: 50%;
+		padding-top: 100px;
+		font-size: 14pt;
+		font-family: nor;
+	}
+	.T{
+		margin-left: 21.5%; 
+		padding-top: 60px;
+		float: left;
+		width: 0%;
+		font-style: fbold;
+		font-size: 95pt;
+	}
+	.contentMain2{
+		text-align: justify;
+		margin-left: 21.5%; 
+		width: 56.5%;
+		font-size: 14pt;
+		font-family: nor;
+	}
+	.img1{
+		margin-right: 50%;
+		width: 35%;
+		padding-top: 80px;
+	}
+	.content1{
+		padding-top: 60px;
+	}
+	.content11{
+		position: relative;
+		float: left;
+		width: 50%;
+	}
+	.content12{
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	.img111{
+		width: 60%;
+		float: left;
+		margin-left: 35%;
+	}
+	.text111{
+		padding-top: 10%;
+		padding-left: 13%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 14pt;
+	}
+	.text112{
+		padding-top: 25%;
+		padding-left: 13%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 14pt;
+	}
+	.text113{
+		padding-top: 40%;
+		padding-left: 5%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		font-size: 18pt;
+	}
+	
+	.img2{
+		margin-right: 50%;
+		width: 35%;
+		padding-top: 80px;
+	}
+	.text121{
+		padding-top: 15%;
+		padding-left: 13%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 14pt;
+	}
+	.text122{
+		padding-top: 35%;
+		padding-left: 13%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 14pt;
+	}
+	.img_slide{
+		float: left;
+		width: 50%;
+	}
+	.content_slide{
+		padding-top: 5%;
+		float: left;
+		width: 35%;
+		text-align: justify;
+		font-family: nor;
+		font-size: 12pt;
+	}
+	.modify_img_slide{
+		width: 70%;
+		margin-left: 20%;
+	}
+	.mySlides{
+		
+	}
+	.contentMain3_PC{
+		text-align: center;
+		padding-top: 60px;
+		margin-right: 4%;
+		margin-left: 4%;
+		width: 92%;
+	}
+	.contentMain3_tablet{
+		display: none;
+	}
+}

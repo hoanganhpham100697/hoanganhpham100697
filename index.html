@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Top 5 MV Việt</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="mycss.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js" ></script>
+	<script src="js/jquery-2.1.1.min.js" ></script>
+</head>
+<body>
+	<div class="coverImg">
+		<img src="img/1920/images/1920_01.png" style="width: 100%">
+	</div>
+	<div class="contentMain1">
+		<div class="T">
+			T
+		</div>
+		<div class="contentMain">
+			hị trường âm nhạc Việt Nam những tháng cuối năm 2017 có những nổi sóng. Ngoài việc tìm lối đi riêng cho mình, các sao còn có sự chăm chút kĩ lưỡng vào thực hiện các MV để đưa đến cho công chúng những sản phẩm không chỉ đã tai mà còn mãn nhãn. 
+		</div>
+	</div>
+	<div class="contentMain2">
+		Theo thống kê trên trang chia sẻ video lớn nhất thế giới - Youtube đã cho thấy kết quả kỉ lục số người xem ngay trong ngày đầu phát hành lên đến hơn 7 triệu 500 lượt xem cho MV Nơi này có anh của Sơn Tùng M-TP. <br>
+		Hãy cùng IOne khám phá những MV đang dẫn đầu bảng xếp hạng các MV Việt có lượt xem nhiều nhất trên Youtube hiện nay. 
+	</div>
+	<div class="contentMain3_tablet">
+		<div class="clear">
+			<div class="mySlides" style="width: 100%">
+				<div class = "img_slide">
+					<img class = "modify_img_slide" src="img/1920/images/1920_05.png">
+				</div>
+				<div class = "content_slide">Xúc xắc xúc xẻ ghi hình khi bé Bảo An chỉ mới ba tuổi, thực hiện cùng chú ruột là nghệ sĩ sân khấu Phi Long.
+				Với nội dung vui tươi mang đậm không khí Tết cổ truyền, MV Xúc xắc xúc xẻ mang về cho Bảo An giải thưởng POPS Awards 2014.</div>
+			</div>
+		</div>
+
+		<div class="clear">
+			<div class="mySlides" style="width: 100%">
+				<div class = "img_slide">
+					<img class = "modify_img_slide" src="img/1920/images/1920_07.png">
+				</div>
+				<div class = "content_slide">MV Lạc trôi được xây dựng theo phong cách cổ trang, kể về một ông vua dù đứng ở đỉnh cao quyền lực vẫn cô đơn vì không thể sở hữu một tình yêu đích thực. Ông ta che giấu con người của mình bằng vẻ ngoài lạnh lùng, bất cần. Bối cảnh quay của  Lạc Trôi tại ngôi chùa Linh Quy Pháp Ân.</div>
+			</div>
+		</div>
+
+		<div class="clear">
+			<div class="mySlides" style="width: 100%">
+				<div class = "img_slide">
+					<img class = "modify_img_slide" src="img/1920/images/1920_09.png">
+				</div>
+				<div class = "content_slide">Ca khúc Phía sau một cô gái được Tiên Cookie sáng tác riêng cho Soobin Hoàng Sơn. MV chỉ có tông màu trắng nhằm khắc họa khoảnh khắc đượm buồn đến nao lòng của chàng trai do chính chàng ca sĩ điển trai vào vai.</div>
+			</div>
+		</div>
+
+		<div class="clear">
+			<div class="mySlides" style="width: 100%">
+				<div class = "img_slide">
+					<img class = "modify_img_slide" src="img/1920/images/1920_11.png">
+				</div>
+				<div class = "content_slide">MV Bống bống bang bang - nhạc phim chính thức của Tấm Cám: Chuyện chưa kể do Ngô Thanh Vân làm sản xuất - đạo diễn. MV sử dụng trang phục, màu sắc dân gian đậm chất Việt Nam, nhóm 365 đã hóa thân thành những nhân vật quen thuộc như Trạng Tí, Dần Béo, Cả Mẹo trong bộ truyện tranh Thần đồng đất Việt.</div>
+			</div>
+		</div>
+
+		<div class="clear">
+			<div class="mySlides" style="width: 100%">
+				<div class = "img_slide">
+					<img class = "modify_img_slide" src="img/1920/images/1920_13.png">
+				</div>
+				<div class = "content_slide">Nơi này có anh là ca khúc đầu tiên Sơn Tùng M-TP viết với ca từ vui tươi, đầy hạnh phúc, ngọt ngào dành cho những cặp đôi yêu nhau. Chính điều này đã khiến Nơi này có anh trở nên đặc biệt, thu hút sự quan tâm của đông đảo khán giả. MV được quay tại Hàn Quốc.</div>
+			</div>
+		</div>
+		<button class="" onclick="plusDivs(-1)">&#10094;</button>
+ 	 	<button class="" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+	</script>
+	<div class="contentMain3_PC">
+
+		<div style="width:20%;float: left;">
+			<div style="width: 90%;">
+				<img  src="img/1920/images/1920_05.png" style="width: 100%;">
+			</div>
+			<div style="text-align: justify; width: 90%; padding-top: 8%;">Xúc xắc xúc xẻ ghi hình khi bé Bảo An chỉ mới ba tuổi, thực hiện cùng chú ruột là nghệ sĩ sân khấu Phi Long.
+				Với nội dung vui tươi mang đậm không khí Tết cổ truyền, MV Xúc xắc xúc xẻ mang về cho Bảo An giải thưởng POPS Awards 2014.</div>
+		</div>
+
+		<div style="width:20%;float: left;">
+			<div style="width: 90%;">
+				<img  src="img/1920/images/1920_07.png" style="width: 100%;">
+			</div>
+			<div style="text-align: justify; width: 90%; padding-top: 8%;">MV Lạc trôi được xây dựng theo phong cách cổ trang, kể về một ông vua dù đứng ở đỉnh cao quyền lực vẫn cô đơn vì không thể sở hữu một tình yêu đích thực. Ông ta che giấu con người của mình bằng vẻ ngoài lạnh lùng, bất cần. Bối cảnh quay của  Lạc Trôi tại ngôi chùa Linh Quy Pháp Ân.</div>
+		</div>
+
+		<div style="width:20%;float: left; ">
+			<div style="width: 90%;">
+				<img  src="img/1920/images/1920_09.png" style="width: 100%;">
+			</div>
+			<div style="text-align: justify; width: 90%;padding-top: 8%;">Ca khúc Phía sau một cô gái được Tiên Cookie sáng tác riêng cho Soobin Hoàng Sơn. MV chỉ có tông màu trắng nhằm khắc họa khoảnh khắc đượm buồn đến nao lòng của chàng trai do chính chàng ca sĩ điển trai vào vai.</div>
+		</div>
+
+		<div style="width:20%;float: left;">
+			<div style="width: 90%;">
+				<img  src="img/1920/images/1920_11.png" style="width: 100%;">
+			</div>
+			<div style="text-align: justify; width: 90%;padding-top: 8%;">MV Bống bống bang bang - nhạc phim chính thức của Tấm Cám: Chuyện chưa kể do Ngô Thanh Vân làm sản xuất - đạo diễn. MV sử dụng trang phục, màu sắc dân gian đậm chất Việt Nam, nhóm 365 đã hóa thân thành những nhân vật quen thuộc như Trạng Tí, Dần Béo, Cả Mẹo trong bộ truyện tranh Thần đồng đất Việt.</div>
+		</div>
+
+		<div style="width:20%;float: left;">
+			<div style="width: 90%;">
+				<img  src="img/1920/images/1920_13.png" style="width: 100%;">
+			</div>
+			<div style="text-align: justify; width: 90%;padding-top: 8%;">Nơi này có anh là ca khúc đầu tiên Sơn Tùng M-TP viết với ca từ vui tươi, đầy hạnh phúc, ngọt ngào dành cho những cặp đôi yêu nhau. Chính điều này đã khiến Nơi này có anh trở nên đặc biệt, thu hút sự quan tâm của đông đảo khán giả. MV được quay tại Hàn Quốc.</div>
+		</div>
+
+	</div>
+	<div class="clear">
+		<div  >
+			<img class="img1" src="img/1920/images/1920_21.png">
+		</div>
+		<div class="content1">
+			<div class="content11">
+				<div >
+					<img class="img111" src="img/1920/images/1920_24.png">
+				</div>
+				<div class="text111">
+					888.969<br>
+					lượt xem ngày<br>
+					cao nhất
+				</div>
+				<div class="text112">
+					888.969<br>
+					lượt theo dõi
+				</div>
+				<div class="text113">
+					<b>888.969<br>
+					lượt theo dõi</b>
+				</div>
+
+			</div>
+			<div class="content12">
+				Video
+			</div>
+		</div>
+	</div>
+
+	<div class="clear">
+		<div >
+			<img class="img2" src="img/1920/images/1920_28.png">
+		</div>
+		<div class="content1">
+			<div class="content11">
+				<div >
+					<img class="img111" src="img/1920/images/1920_32.png">
+				</div>
+				<div class="text121">
+					888.969<br>
+					lượt xem ngày<br>
+					cao nhất
+				</div>
+				<div class="text122">
+					888.969<br>
+					lượt theo dõi
+				</div>
+				<div class="text113">
+					<b>888.969<br>
+					lượt theo dõi</b>
+				</div>
+
+			</div>
+			<div class="content12">
+				Video
+			</div>
+		</div>
+	</div>
+
+	<div class="clear">
+		<div  >
+			<img class="img2" src="img/1920/images/1920_34.png">
+		</div>
+		<div class="content1">
+			<div class="content11">
+				<div >
+					<img class="img111" src="img/1920/images/1920_38.png">
+				</div>
+				<div class="text121">
+					888.969<br>
+					lượt xem ngày<br>
+					cao nhất
+				</div>
+				<div class="text122">
+					888.969<br>
+					lượt theo dõi
+				</div>
+				<div class="text113">
+					<b>888.969<br>
+					lượt theo dõi</b>
+				</div>
+
+			</div>
+			<div class="content12">
+				Video
+			</div>
+		</div>
+	</div>
+
+	<div class="clear">
+		<div  >
+			<img  class="img2" src="img/1920/images/1920_41.png">
+		</div>
+		<div class="content1">
+			<div class="content11">
+				<div >
+					<img class="img111" src="img/1920/images/1920_45.png">
+				</div>
+				<div class="text121">
+					888.969<br>
+					lượt xem ngày<br>
+					cao nhất
+				</div>
+				<div class="text122">
+					888.969<br>
+					lượt theo dõi
+				</div>
+				<div class="text113">
+					<b>888.969<br>
+					lượt theo dõi</b>
+				</div>
+
+			</div>
+			<div class="content12">
+				Video
+			</div>
+		</div>
+	</div>
+
+	<div class="clear">
+		<div  >
+			<img class="img2" src="img/1920/images/1920_48.png">
+		</div>
+		<div class="content1">
+			<div class="content11">
+				<div >
+					<img class="img111"  src="img/1920/images/1920_52.png">
+				</div>
+				<div class="text121">
+					888.969<br>
+					lượt xem ngày<br>
+					cao nhất
+				</div>
+				<div class="text122">
+					888.969<br>
+					lượt theo dõi
+				</div>
+				<div class="text113">
+					<b>888.969<br>
+					lượt theo dõi</b>
+				</div>
+
+			</div>
+			<div class="content12">
+				Video
+			</div>
+		</div>
+	</div>
+</body>
+</html>
