@@ -13,7 +13,7 @@ body{
 .clear { 
 	clear: both;
 }
-@media (max-width: 360px){
+@media (max-width: 575px){
 	.contentMain{
 		text-align: justify;
 		margin-left: 15%; 
@@ -106,7 +106,7 @@ body{
 	}
 	.text112{
 		margin-left: 5%;
-		padding: 0 1% 0 1%;
+		padding: 0 1.8% 0 1%;
 		background: #e97171;
 		margin-top: 36.5%;
 		text-align: center;
@@ -189,7 +189,7 @@ body{
 	}
 }
 
-@media (min-width: 361px) and (max-width: 1365px) {
+@media (min-width: 576px) and (max-width: 1199px) {
 	.btn{
 		font-family: nor;
 		font-size: 70px;
@@ -299,7 +299,7 @@ body{
 		font-size: 12pt;;
 	}
 	.text112:hover{
-		padding: 0 1% 0 1%;
+		padding: 0 1.8% 0 1%;
 		background: white;
 		margin-top: 51.5%;
 		text-align: center;
@@ -329,7 +329,7 @@ body{
 		font-size: 12pt;
 	}
 	.text112{
-		padding: 0 1% 0 1%;
+		padding: 0 1.8% 0 1%;
 		background: #e97171;
 		margin-top: 51.5%;
 		text-align: center;
@@ -396,7 +396,7 @@ body{
 	}
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1200px) {
 	.contentMain{
 		text-align: justify;
 		margin-left: 20%; 
@@ -486,7 +486,7 @@ body{
 		font-size: 14pt;
 	}
 	.text112:hover{
-		padding: 0 1% 0 1%;
+		padding: 0 1.8% 0 1%;
 		background: white;
 		margin-top: 39.1%;
 		margin-left: 8%;
@@ -517,7 +517,7 @@ body{
 		font-size: 14pt;
 	}
 	.text112{
-		padding: 0 1% 0 1%;
+		padding: 0 1.8% 0 1%;
 		background: #e97171;
 		margin-top: 39.1%;
 		margin-left: 8%;
