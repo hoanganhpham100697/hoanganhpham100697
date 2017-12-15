@@ -13,7 +13,7 @@ body{
 .clear { 
 	clear: both;
 }
-@media (max-width: 599px){
+@media (max-width: 360px){
 	.contentMain{
 		text-align: justify;
 		margin-left: 15%; 
@@ -59,14 +59,9 @@ body{
 		text-align: center;
 		width: 100%;
 	}
-	.content22{
-		padding-top: 40px;
-		text-align: center;
-		width: 100%;
-	}
 	.video{
-		width: 85%;
-		height: 200px;
+		width: 80%;
+		height: calc(77.5vw * 9/16);
 
 	}
 	.img111{
@@ -75,64 +70,63 @@ body{
 		margin-left: 30%;
 	}
 	.img211{
-		width: 70%;
+		margin-top: 0.3%;
 		float: left;
-		margin-left:20%;
+		width: 60%;
+		margin-left: 30%;
+	}
+	.img311{
+		margin-top: -1.5%;
+		float: left;
+		width: 60%;
+		margin-left: 30%;
+	}
+	.img411{
+		margin-top: 0.3%;
+		float: left;
+		width: 60%;
+		margin-left: 30%;
+	}
+	.img511{
+		margin-top: 1%;
+		float: left;
+		width: 60%;
+		margin-left: 30%;
 	}
 	.text111{
-		padding-top: 5%;
 		margin-left: 5%;
+		margin-top: 19%;
+		padding: 0 1% 0 1%;
+		background: #e97171;
 		text-align: center;
 		font-family: nor;
-		color: #e02f2f;
+		color: white;
 		position: absolute;
-		font-size: normal;
+		font-size: 12pt;
 	}
 	.text112{
-		padding-top: 24%;
 		margin-left: 5%;
+		padding: 0 1% 0 1%;
+		background: #e97171;
+		margin-top: 36.5%;
 		text-align: center;
 		font-family: nor;
-		color: #e02f2f;
+		color: white;
 		position: absolute;
-		font-size: normal;
+		font-size: 12pt;
 	}
 	.text113{
-		padding-top: 40%;
+		width: 52.8%;
+		background: #e97171;
+		margin: 51% 10% 0% 30%;
 		text-align: center;
 		font-family: nor;
-		color: #e02f2f;
-		font-size: normal;
+		color: white;
+		font-size: 14pt;
 	}
-	.text123{
-		padding-top: 60%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
-		font-size: normal;
-	}
-	
 	.img2{
 		height: 150px;
 		padding-top: 80px;
-	}
-	.text121{
-		padding-top: 25%;
-		margin-left: 3%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
-		position: absolute;
-		font-size: normal;
-	}
-	.text122{
-		padding-top: 45%;
-		margin-left: 3%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
-		position: absolute;
-		font-size: normal;
 	}
 	.img_slide{
 		text-align: center; 
@@ -174,7 +168,6 @@ body{
 	.footerMob{
 		width: 100%;
 		margin-top: 15%;
-		margin-bottom: 30px;
 	}
 	.SlideShow{
 		position: relative;
@@ -196,7 +189,7 @@ body{
 	}
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 361px) and (max-width: 1365px) {
 	.btn{
 		font-family: nor;
 		font-size: 70px;
@@ -248,97 +241,115 @@ body{
 		width: 100%;
 	}
 	.content11{
-		padding-top: 60px;
 		position: relative;
 		float: left;
 		width: 45%;
 		padding-left: 5%;
 	}
 	.content12{
-		padding-top: 60px;
-		display: relative;
-		float: left;
-		width: 50%;
-		padding-left: 10%;
-	}
-	.content22{
-		padding-top: 110px;
+		margin-top: 5%;
 		display: block;
 		float: left;
 		width: 50%;
 		padding-left: 10%;
 	}
 	.video{
-		width: 80%;
-		height: 200px;
+		width: 100%;
+		height: calc(39.2vw * 9/16);
 
 	}
 	.img111{
-		width: 80%;
+		margin-top: 13%;
+		width: 70%;
 		float: left;
-		margin-left: 30%;
+		margin-left: 40%;
 	}
 	.img211{
-		width: 80%;
+		margin-top: 14%;
+		width: 70%;
 		float: left;
-		margin-left: 30%;
+		margin-left: 40%;
+	}
+	.img311{
+		margin-top: 12%;
+		width: 70%;
+		float: left;
+		margin-left: 40%;
+	}
+	.img411{
+		margin-top: 14%;
+		width: 70%;
+		float: left;
+		margin-left: 40%;
+	}
+	.img511{
+		margin-top: 14%;
+		width: 70%;
+		float: left;
+		margin-left: 40%;
+	}
+	.text111:hover{
+		margin-top: 31.5%;
+		padding: 0 1% 0 1%;
+		background: white;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 12pt;;
+	}
+	.text112:hover{
+		padding: 0 1% 0 1%;
+		background: white;
+		margin-top: 51.5%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		position: absolute;
+		font-size: 12pt;
+	}
+	.text113:hover{
+		width: 62%;
+		background: white;
+		margin: 72% 10% 0% 40%;
+		text-align: center;
+		font-family: nor;
+		color: #e02f2f;
+		font-size: 14pt;
+		
 	}
 	.text111{
-		padding-top: 8%;
-		margin-left: 2%;
+		margin-top: 31.5%;
+		padding: 0 1% 0 1%;
+		background: #e97171;
 		text-align: center;
 		font-family: nor;
-		color: #e02f2f;
+		color: white;
 		position: absolute;
-		font-size: normal;
+		font-size: 12pt;
 	}
 	.text112{
-		padding-top: 30%;
-		margin-left: 2%;
+		padding: 0 1% 0 1%;
+		background: #e97171;
+		margin-top: 51.5%;
 		text-align: center;
 		font-family: nor;
-		color: #e02f2f;
+		color: white;
 		position: absolute;
-		font-size: normal;
+		font-size: 12pt;
 	}
 	.text113{
-		padding-top: 50%;
-		padding-left: 20%;
+		width: 62%;
+		background: #e97171;
+		margin: 72% 10% 0% 40%;
 		text-align: center;
 		font-family: nor;
-		color: #e02f2f;
-		font-size: normal;
+		color: white;
+		font-size: 14pt;
 	}
-	.text123{
-		padding-top: 70%;
-		padding-left: 25%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
-		font-size: normal;
-	}
-	
 	.img2{
 		height: 165px;
 		padding-top: 80px;
-	}
-	.text121{
-		padding-top: 25%;
-		margin-left: 7%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
-		position: absolute;
-		font-size: normal;
-	}
-	.text122{
-		padding-top: 50%;
-		margin-left: 7%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
-		position: absolute;
-		font-size: normal;
 	}
 	.img_slide{
 		float: left;
@@ -357,8 +368,8 @@ body{
 		width: 70%;
 		margin-left: 20%;
 		-moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+  		transition: all 0.3s;
 	}
 	.modify_img_slide:hover{
 		width: 70%;
@@ -376,7 +387,6 @@ body{
 	.footerPC{
 		width: 100%;
 		margin-top: 45%;
-		margin-bottom: 30px;
 	}
 	.imgFooter{
 		width: 100%;
@@ -386,7 +396,7 @@ body{
 	}
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1366px) {
 	.contentMain{
 		text-align: justify;
 		margin-left: 20%; 
@@ -418,13 +428,13 @@ body{
 		
 	}
 	.content11{
-		padding-top: 60px;
+		padding-top: 5%;
 		position: relative;
 		float: left;
 		width: 50%;
 	}
 	.content12{
-		padding-top: 20px;
+		padding-top: 4.4%;
 		display: block;
 		float: left;
 		width: 50%;
@@ -441,15 +451,33 @@ body{
 		margin-left: 30%;
 	}
 	.img211{
+		margin-top: 0.5%;
+		width: 60%;
+		float: left;
+		margin-left: 30%;
+	}
+	.img311{
+		margin-top: -1.2%;
+		width: 60%;
+		float: left;
+		margin-left: 30%;
+	}
+	.img411{
+		margin-top: 0.6%;
+		width: 60%;
+		float: left;
+		margin-left: 30%;
+	}
+	.img511{
+		margin-top: 1.1%;
 		width: 60%;
 		float: left;
 		margin-left: 30%;
 	}
 	.text111:hover{
 		padding: 0 1% 0 1%;
-		border-radius: 25px;
 		background: white;
-		margin-top: 10%;
+		margin-top: 20%;
 		margin-left: 8%;
 		text-align: center;
 		font-family: nor;
@@ -459,9 +487,8 @@ body{
 	}
 	.text112:hover{
 		padding: 0 1% 0 1%;
-		border-radius: 15px;
 		background: white;
-		margin-top: 25%;
+		margin-top: 39.1%;
 		margin-left: 8%;
 		text-align: center;
 		font-family: nor;
@@ -470,9 +497,9 @@ body{
 		font-size: 14pt;
 	}
 	.text113:hover{
-		border-radius: 50px;
+		width: 52.7%;
 		background: white;
-		margin: 40% 10% 0% 10%;
+		margin: 50% 10% 0% 30%;
 		text-align: center;
 		font-family: nor;
 		color: #e02f2f;
@@ -480,9 +507,8 @@ body{
 	}
 	.text111{
 		padding: 0 1% 0 1%;
-		border-radius: 25px;
 		background: #e97171;
-		margin-top: 10%;
+		margin-top: 20%;
 		margin-left: 8%;
 		text-align: center;
 		font-family: nor;
@@ -492,9 +518,8 @@ body{
 	}
 	.text112{
 		padding: 0 1% 0 1%;
-		border-radius: 15px;
 		background: #e97171;
-		margin-top: 25%;
+		margin-top: 39.1%;
 		margin-left: 8%;
 		text-align: center;
 		font-family: nor;
@@ -503,20 +528,12 @@ body{
 		font-size: 14pt;
 	}
 	.text113{
-		border-radius: 50px;
+		width: 52.7%;
 		background: #e97171;
-		margin: 40% 10% 0% 10%;
+		margin: 50% 10% 0% 30%;
 		text-align: center;
 		font-family: nor;
 		color: white;
-		font-size: 16pt;
-	}
-	.text123{
-		padding-top: 51%;
-		padding-left: 5%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
 		font-size: 16pt;
 	}
 	
@@ -524,25 +541,6 @@ body{
 		margin-left: 8%;
 		height: 170px;
 		padding-top: 80px;
-	}
-	.text121{
-		padding-top: 18%;
-		margin-left: 10%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
-		position: absolute;
-		font-size: 14pt;
-	}
-	.text122{
-		
-		padding-top: 38%;
-		margin-left: 10%;
-		text-align: center;
-		font-family: nor;
-		color: #e02f2f;
-		position: absolute;
-		font-size: 14pt;
 	}
 	.img_slide{
 		float: left;
@@ -576,14 +574,13 @@ body{
 	.footerPC{
 		width: 100%;
 		margin-top: 45%;
-		margin-bottom: 30px;
 	}
 	.imgFooter{
 		width: 100%;
 	}
 	.video{
-		width: 560px;
-		height: 315px;
+		width: 552px;
+		height: 310.5px;
 	}
 	.footerMob{
 		display: none;
